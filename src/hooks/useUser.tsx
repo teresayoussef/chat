@@ -37,7 +37,7 @@ const UserProvider = ({ children }: Props): JSX.Element => {
           if (!user.token) {
             getToken(messaging, {
               vapidKey:
-                "BHl7GK5grEYe84CHazk1ijKMHd6JxY05MJKK-0KCyYih6TOeq5V8m2NGwbDKani0E4xK5Is9eGRBedr35WwGW3M",
+                "BPgKsrUvMbPt7q-PWaSn-FFeJjoFwQ7i3ahNkT9B0TBsPCkBXFglwUxjIeicsXB-ElzQx4BPZ0ggV710UG64nc8",
             })
               .then(async (currentToken) => {
                 if (currentToken) {

@@ -7,13 +7,12 @@ import { getStorage } from "firebase/storage";
 import { enableIndexedDbPersistence } from "firebase/firestore";
 
 const firebaseConfig: FirebaseOptions = {
-  apiKey: "AIzaSyBa0FLLRPKNO_-tBoET5Ju7ZzGEAEfj9xM",
-  authDomain: "rooms-5dd25.firebaseapp.com",
-  projectId: "rooms-5dd25",
-  storageBucket: "rooms-5dd25.appspot.com",
-  messagingSenderId: "770160537933",
-  appId: "1:770160537933:web:35471ca3873bdd7c64c704",
-  measurementId: "G-CDQM01S1FN"
+  apiKey: "AIzaSyBM2WFEPzgH9V-PYUl7cCcFGYpSFIbRvkQ",
+  authDomain: "chat-distri.firebaseapp.com",
+  projectId: "chat-distri",
+  storageBucket: "chat-distri.appspot.com",
+  messagingSenderId: "632055324249",
+  appId: "1:632055324249:web:a326df518ae1ce635cdb48"
 };
 
 const app = initializeApp(firebaseConfig);
