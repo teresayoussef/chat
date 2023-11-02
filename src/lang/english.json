@@ -34,5 +34,5 @@
   "errorUploadingImage" : "An unexpected error has occurred uploading the image.",
   "errorUploadingFile" : "An unexpected error has occurred uploading the file.",
   "onlyImages" : "Only uploading images is allowed.",
-  "roomsDesktop" : "We're sorry, but Rooms Web is only available for desktop version."
+  "roomsDesktop" : "We're sorry, but the app Web is only available for desktop version."
 }

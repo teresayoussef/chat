@@ -106,21 +106,10 @@ const Login = (props: LoginProps): JSX.Element => {
                 <Close sx={{color: "#010101"}}/>
               </IconButton>
             </div>
-            <Typography variant='h4' sx={{color: "#010101"}}>
+            <Typography variant='h4' sx={{color: "#010101", marginBottom: '10px'}}>
               <FormattedMessage 
                 id="signUp"
                 defaultMessage="Sign up"
-              />
-            </Typography>
-            <div className="social-container">
-              <IconButton sx={socialIconStyle} onClick={GoogleAuth}>
-                <img style={{width: '20pt'}} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"}/>
-              </IconButton>
-            </div>
-            <Typography>
-              <FormattedMessage 
-                id="orUseYourEmail"
-                defaultMessage="or use your email for registration"
               />
             </Typography>
             <TextField 
@@ -177,23 +166,12 @@ const Login = (props: LoginProps): JSX.Element => {
                   <Close sx={{color: "#010101"}}/>
                 </IconButton>
               </div>
-              <Typography variant='h4' sx={{color: "#010101"}}>
+              <Typography variant='h4' sx={{color: "#010101", marginBottom: '10px'}}>
                 <FormattedMessage 
                   id="signIn"
                   defaultMessage="Sign in"
                 />
               </Typography>
-            <div className="social-container">
-              <IconButton sx={socialIconStyle} onClick={GoogleAuth}>
-                <img style={{width: '20pt'}} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"}/>
-              </IconButton>
-            </div>
-            <Typography>
-              <FormattedMessage 
-                id="orUseYourAccount"
-                defaultMessage="or use your account"
-              />
-            </Typography>
             <TextField
               onChange={(e) => handleChangeLogIn("email", e.target.value)} 
               placeholder={

@@ -44,12 +44,13 @@ const Home = (): JSX.Element => {
                         <Lottie options={defaultOptions} loop />
                     </Box>
                     <Typography variant='h4' fontWeight={400} mb={2}>
+                        {/* TO DOñ CAMBIAR NOMBRE */}
                         Rooms Web
                     </Typography>
                     <Typography variant='body1' fontWeight={400}>
                         <FormattedMessage 
                             id="roomsDesktop"
-                            defaultMessage="We're sorry, but Rooms Web is only available for desktop version."
+                            defaultMessage="We're sorry, but the app is only available for desktop version."
                         />
                     </Typography>
                 </div>

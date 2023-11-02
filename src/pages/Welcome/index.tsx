@@ -15,8 +15,10 @@ const Welcome = (): JSX.Element => {
     <div>
       <div className='welcome-banner'>
         <video playsInline preload="true" autoPlay muted loop id="myVideo">
+          {/* TO DO: CAMBIAR VIDEO */}
           <source src={banVideo} type="video/mp4"/>
         </video>
+        {/* TO DO: CAMBIAR LOGO */}
         <img src={logo} className="logo-banner"/>
         <motion.button 
           className="button-banner"
