@@ -1,0 +1,29 @@
+/* Tamaño del scroll */
+div::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  
+  
+   /* Estilos barra (thumb) de scroll */
+   div::-webkit-scrollbar-thumb {
+    background: #ccc;
+  }
+  
+  div::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  div::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+  }
+  
+   /* Estilos track de scroll */
+   div::-webkit-scrollbar-track {
+    background: #efeae2;
+  }
+  
+  div::-webkit-scrollbar-track:hover, 
+  div::-webkit-scrollbar-track:active {
+    background: #efeae2;
+  }

@@ -1,0 +1,169 @@
+$breakpoint: 430px;
+$breakpoint2: 650px;
+$breakpoint3: 310px;
+$breakpoint4: 1200px;
+
+.welcome-banner{
+    background: #010101;
+    // background: #34166C;
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+   align-items: center;
+}
+
+.custom-shape-divider-bottom-1668622632 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668622632 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 93px;
+}
+
+.custom-shape-divider-bottom-1668622632 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.logo-banner {
+    width: 100pt;
+    margin: 30pt;
+    position: absolute;
+    top: 0;
+}
+
+.button-banner {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    margin-bottom: 45px;
+	border: 2px solid #F2eee3;
+	background-color: #fff;
+	color: #010101;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    cursor: pointer;
+    right: 0;
+    margin: 30pt;
+
+    &:hover {
+        background-color: #fff;
+        box-shadow: 0px 15px 20px #ffffff40;
+        color: #010101;
+        transform: translateY(-7px);
+      }
+
+}
+
+.text-banner{
+    margin: auto;
+    max-width: 800pt;
+    width: 100%;
+    padding-top: 100pt;
+    z-index: 10;
+    text-align: center;
+}
+
+.subtitle-banner{
+    font-size: 25pt;
+    color: #fff;
+    font-weight: 300;
+    padding: 20pt;
+}
+
+.block1, .block2 {
+    height: 400pt;
+}
+
+.block2 {
+    background-color: #f6f6f6;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(0.4);
+  }
+  
+
+@media (max-width: $breakpoint4) {
+    
+    .subtitle-banner{
+        font-size: 20pt;
+    }
+
+}
+
+@media (max-width: $breakpoint2) {
+
+    .button-banner {
+		margin: 20pt;
+	}
+
+	.logo-banner {
+		margin: 20pt;
+        margin-top: 25pt;
+	}
+
+    .subtitle-banner{
+        margin-top: -20pt;
+    }
+
+}
+
+@media (max-width: $breakpoint) {
+
+	.button-banner {
+		margin-top: 80pt;
+        left: 0;
+        margin-left: 60pt;
+        margin-right: 60pt;
+	}
+
+    .logo-banner{
+        display: block;
+        margin: auto;
+        left: 0;
+        right: 0;
+        padding-top: 20pt;
+    }
+
+    .subtitle-banner{
+        font-size: 20pt;
+        width: 100%;
+        overflow: hidden;
+        word-wrap: break-word;
+        margin-top: 0pt;
+    }
+}
+
+@media (max-width: $breakpoint3) {
+
+    .button-banner {
+		margin-top: 80pt;
+        margin-left: 20pt;
+        margin-right: 20pt;
+	}
+
+    .subtitle-banner{
+        font-size: 15pt;
+        
+    }
+
+}

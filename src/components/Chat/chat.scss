@@ -1,0 +1,58 @@
+$breakpoint: 1100px;
+
+.container-empty {
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f6f6;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.container-animation {
+    width: 100%;
+}
+
+.cont-chat {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #efeae2;
+}
+
+.cont-messages {
+    background-color: #efeae2;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    max-height: 88vh; 
+    padding-bottom: 20pt;
+}
+
+.audio {
+    width: 100%;
+    min-width: 120pt;
+}
+
+.myAudio {
+    @extend .audio;
+    &::-webkit-media-controls-panel {
+        background-color: #f3d9ff;
+      }
+}
+
+.anotherAudio {
+    @extend .audio;
+    &::-webkit-media-controls-panel {
+        background-color: #fff;
+      }
+}
+
+@media (min-width: $breakpoint) {
+    .audio {
+        width: 100%;
+        min-width: 250pt;
+    }
+}
