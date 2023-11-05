@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import Login from '../Login';
 import { motion } from "framer-motion";
 import './welcome.scss';
-import logo from '../../assets/roomslogo.png';
+import logo from '../../assets/SupMessagesLogo.png';
 import banVideo from '../../assets/bannerVideo.mp4';
 import { Fade } from '@mui/material';
 import { FormattedMessage } from 'react-intl'; 
@@ -19,7 +19,7 @@ const Welcome = (): JSX.Element => {
           <source src={banVideo} type="video/mp4"/>
         </video>
         {/* TO DO: CAMBIAR LOGO */}
-        <img src={logo} className="logo-banner"/>
+        <img src={logo} width="300%" className="logo-banner"/>
         <motion.button 
           className="button-banner"
           onClick={() => setOpen(true)}
