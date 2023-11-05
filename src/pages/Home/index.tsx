@@ -45,7 +45,7 @@ const Home = (): JSX.Element => {
                     </Box>
                     <Typography variant='h4' fontWeight={400} mb={2}>
                         {/* TO DOñ CAMBIAR NOMBRE */}
-                        Rooms Web
+                        SupMessages
                     </Typography>
                     <Typography variant='body1' fontWeight={400}>
                         <FormattedMessage 
